@@ -5,7 +5,7 @@ interface ScheduleItem {
   title: string;
   description: string;
   icon: React.ReactNode;
-  type: 'session' | 'break' | 'welcome' | 'hands-on';
+  type: 'session' | 'break' | 'hands-on' | 'networking';
 }
 
 const ScheduleSection = () => {
