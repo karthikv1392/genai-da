@@ -12,15 +12,15 @@ const ScheduleSection = () => {
   const schedule: ScheduleItem[] = [
     {
       time: '13:30 - 14:00',
-      title: 'Machine Learning (ML) and Software Architecture',
-      description: 'Introduction to the intersection of Machine Learning and Software Architecture. Understanding how ML impacts architectural decisions and design patterns.',
+      title: 'Machine Learning (ML) and SA',
+      description: 'Synchronize on the terminology to be used during the tutorial. Basics on ML for SA and SA for ML.',
       icon: <Presentation className="w-5 h-5" />,
       type: 'session',
     },
     {
       time: '14:00 - 15:00',
       title: 'LLMs as an Architect Assistant',
-      description: 'Exploring how Large Language Models can serve as architectural assistants. Practical applications, capabilities, and limitations of LLM-based architecture support.',
+      description: 'Evaluate the fitness of architectural decisions produced by LLMs. Discuss when and how to integrate LLMs into software architecting practices. Critically assess the role of LLMs in software architecture practices. Takeaways: Understand how LLMs can act as co-pilots in architecture-related tasks.',
       icon: <Presentation className="w-5 h-5" />,
       type: 'session',
     },
@@ -33,15 +33,15 @@ const ScheduleSection = () => {
     },
     {
       time: '15:30 - 16:30',
-      title: 'LLMs for Architecting + Hands-on',
-      description: 'Continued exploration of LLMs for software architecting with practical hands-on exercises. Work with LLM-based tools and frameworks.',
+      title: 'LLMs for Architecting (cont.) + Hands-on',
+      description: 'Continued exploration of LLMs for software architecting with practical hands-on exercises.',
       icon: <Laptop className="w-5 h-5" />,
       type: 'hands-on',
     },
     {
       time: '16:30 - 17:30',
       title: 'Agentic AI and Sustainability',
-      description: 'Deep dive into Agentic AI architectures and their role in building sustainable software systems. Design patterns and real-world applications.',
+      description: 'Architecting LLM agents and multi-agent systems. Energy/Sustainability implications and discussion. Takeaways: AI-enabled architecture as a product. Key considerations for architecting sustainable LLM-enabled systems.',
       icon: <Presentation className="w-5 h-5" />,
       type: 'session',
     },

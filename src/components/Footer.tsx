@@ -58,13 +58,27 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8 text-center text-gray-500">
-          <p>
-            &copy; 2026 Digital Architecture Tutorial. All rights reserved.
-          </p>
-          <p className="mt-2">
-            January 28, 2026 | VU Amsterdam, Netherlands
-          </p>
+        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-center justify-between text-gray-500">
+          <div className="text-center md:text-left">
+            <p>
+              &copy; 2026 Digital Architecture Tutorial. All rights reserved.
+            </p>
+            <p className="mt-2">
+              January 28, 2026 | VU Amsterdam, Netherlands
+            </p>
+          </div>
+          <a
+            href="https://digitalsustainabilitycenter.nl"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 md:mt-0"
+          >
+            <img
+              src="https://digitalsustainabilitycenter.nl/assets/img/Logo_DISC_H.png"
+              alt="Digital Sustainability Center"
+              className="h-12 opacity-80 hover:opacity-100 transition-opacity"
+            />
+          </a>
         </div>
       </div>
     </footer>
