@@ -12,27 +12,24 @@ const ResourcesSection = () => {
   const resources: Resource[] = [
     {
       name: 'Tutorial Slides',
-      type: 'PDF',
+      type: 'Google Slides',
       icon: <FileText className="w-6 h-6" />,
-      available: false,
+      available: true,
+      link: 'https://docs.google.com/presentation/d/1bFmFP_bKSpGOmbazoriluTh8sQLzMUA7gjkvd6xRSx8/edit?usp=sharing',
     },
     {
-      name: 'Hands-on Notebook: LLM4SA',
+      name: 'Hands-on Notebook',
       type: 'Colab Notebook',
       icon: <BookOpen className="w-6 h-6" />,
-      available: false,
-    },
-    {
-      name: 'Hands-on Notebook: Agentic AI',
-      type: 'Colab Notebook',
-      icon: <BookOpen className="w-6 h-6" />,
-      available: false,
+      available: true,
+      link: 'https://colab.research.google.com/drive/1S6iDsTjz15_R0WKttG5pmVLZT7psgg2j?usp=sharing',
     },
     {
       name: 'Supplementary Reading',
-      type: 'Reading List',
+      type: 'Research Paper',
       icon: <FileText className="w-6 h-6" />,
-      available: false,
+      available: true,
+      link: 'https://www.sciencedirect.com/science/article/pii/S0164121225002766',
     },
   ];
 
